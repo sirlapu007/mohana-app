@@ -14,7 +14,7 @@ const SurpriseAnimation = () => {
   const [fireworksVisible, setFireworksVisible] = useState(false);
 
   const sound = new Howl({
-    src: ["./src/birthday/happybirthday1.m4a"], // Replace with your sound file path
+    src: ["./birthday/happybirthday1.m4a"], // Replace with your sound file path
     volume: 0.5,
   });
 
